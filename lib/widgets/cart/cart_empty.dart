@@ -13,16 +13,7 @@ Widget cartEmpty(BuildContext context) {
               Container(
                 child: Image.asset('assets/images/other_icons/cart_lg.png'),
               ),
-              Container(
-                padding: EdgeInsets.only(top: 25),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      'Your Cart is Empty',
-                      style:
-                          TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                    ),
+              
                     Container(
                       padding: EdgeInsets.only(top: 8, bottom: 25),
                       child: Text(
